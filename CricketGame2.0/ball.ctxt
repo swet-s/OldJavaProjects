@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ball
+comment0.text=printing\ cricket\ card\ /
+comment1.params=bctr
+comment1.target=void\ ball(int)
+comment2.params=
+comment2.target=int\ rctr()
+comment3.params=
+comment3.target=int\ rrctr()
+comment4.params=
+comment4.target=int\ wctr()
+numComments=5

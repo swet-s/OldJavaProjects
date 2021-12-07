@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CaseConverter
+comment0.text=\r\n\ Class\ CaseConverter\ -\ A\ simple\ applet\ that\ takes\ input\ from\ a\ text\ field\ \r\n\ and\ converts\ to\ upper\ or\ lower\ case\ in\ response\ to\ user\ button\ selection.\ \r\n\ Works\ well\ with\ a\ width\ of\ 300\ and\ height\ of\ 120.\r\n\ \ \r\n\ Aug\ 2004\:\ Updated\ from\ Applet\ to\ JApplet\ (mik)\r\n\r\n\ @author\ Bruce\ Quig\ \r\n\ @author\ Michael\ Kolling\r\n\ \r\n\ @version\ 2004-08-04\r\n
+comment1.params=
+comment1.target=void\ init()
+comment1.text=\r\n\ Called\ by\ the\ browser\ or\ applet\ viewer\ to\ inform\ this\ JApplet\ that\ it\r\n\ has\ been\ loaded\ into\ the\ system.\ It\ is\ always\ called\ before\ the\ first\ \r\n\ time\ that\ the\ start\ method\ is\ called.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAppletInfo()
+comment2.text=\r\n\ Returns\ information\ about\ this\ applet.\ \r\n\ An\ applet\ should\ override\ this\ method\ to\ return\ a\ String\ containing\ \r\n\ information\ about\ the\ author,\ version,\ and\ copyright\ of\ the\ JApplet.\r\n\r\n\ @return\ a\ String\ representation\ of\ information\ about\ this\ JApplet\r\n
+comment3.params=evt
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.text=\r\n\ ActionListener\ Interface\ method.\r\n\ Called\ when\ action\ events\ occur\ with\ registered\ components\ that\r\n\ can\ fire\ action\ events.\r\n\ @param\ \ ae\ \ \ the\ ActionEvent\ object\ created\ by\ the\ event\r\n
+numComments=4

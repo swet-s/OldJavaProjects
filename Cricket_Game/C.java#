@@ -1,0 +1,10 @@
+
+public class C extends Dem.Demo
+{
+public C()
+{
+a();
+b();
+c();
+}
+}

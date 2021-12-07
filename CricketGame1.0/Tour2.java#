@@ -1,0 +1,22 @@
+import java.util.*;
+class Tour2
+{
+public static void loop(int o,double sec,String t1,String t2)
+{
+Scanner Input=new Scanner(System.in);
+Random r=new Random();
+String nta[]=new String [nt];
+for(int n=0;n<nt;n++)
+{
+System.out.print("Enter team "+(n+1)+":- ");
+nta[n]=Input.next();
+}
+for(int k=0;k<nt;k++)
+{
+for(int l=0;l<k;l++)
+{
+Cricket.match(o,sec,nta[k],nta[l]);float X=r.nextFloat();float toss=Math.round(0+9*X);
+}
+}
+}
+}

@@ -1,0 +1,25 @@
+import java.util.*;
+class niven
+{
+public static void main(String args[])
+{
+Scanner Input=new Scanner(System.in);
+try{
+System.out.print("Enter a no:-");
+int no=Input.nextInt();
+int d,tno=no,s=0;
+while (tno>0)
+{
+d=tno%10;
+s+=d;
+tno/=10;
+}
+if (no%s==0)
+System.out.print("It is a niven no");
+else
+System.out.print("not");}
+catch (FileNotFoundException e1)
+{
+System.out.print("It is a niven no");
+}
+}}

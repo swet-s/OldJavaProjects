@@ -1,0 +1,10 @@
+
+public class C extends Demo.demo
+{
+public C()
+{
+a();
+b();
+c();
+}
+}

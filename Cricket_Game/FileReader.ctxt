@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FileReader()
+comment0.text=\nCreate\ a\ file\ reader\n\n
+comment1.params=fileName
+comment1.target=void\ showFile(String)
+comment1.text=\nShow\ the\ contents\ of\ the\ file\ 'fileName'\ on\ standard\ out\ (the\ text\ terminal).\n\n@param\ fileName\ \ The\ name\ of\ the\ file\ to\ show\n@throws\ \ IOException\ if\ the\ file\ could\ not\ be\ opened\n\n
+comment2.params=fileName
+comment2.target=void\ checkedShowFile(String)
+comment2.text=\nSame\ as\ 'showfile',\ but\ don't\ throw\ exceptions.\ If\ an\ error\ occurs,\nwrite\ an\ error\ message\ to\ the\ terminal.\n\n@param\ fileName\ \ The\ name\ of\ the\ file\ to\ show\n\n
+comment3.params=fileName
+comment3.target=InputStream\ openFile(String)
+comment3.text=\nOpen\ a\ text\ file\ and\ return\ a\ stream\ to\ read\ from\ that\ file.\nThe\ file\ can\ reside\ anywhere\ in\ the\ classpath.\n\n@param\ fileName\ \ The\ name\ of\ the\ file\ to\ open\n@return\ An\ open\ stream\ to\ read\ from\ the\ file\n@throws\ \ IOException\ if\ the\ file\ could\ not\ be\ opened\n\n
+numComments=4

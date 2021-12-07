@@ -1,0 +1,11 @@
+import java.util.*;
+class crick
+{
+public static void main()
+{
+Scanner Input=new Scanner(System.in);
+System.out.print("Enter delay you want for each ball(in Seconds)[eg 0.5 sec] :-");double sec=Input.nextDouble();
+System.out.print("Enter no of Overs:-");int o=Input.nextInt();
+Cricket.match2(o,sec);
+}
+}

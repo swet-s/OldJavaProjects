@@ -1,0 +1,13 @@
+import java.util.*;
+/*printing cricket card */
+class CC
+{
+public static void main(String args[])
+{
+Scanner Input=new Scanner(System.in);
+Random r=new Random();
+System.out.print("\fEnter no of Overs:-");
+int o=Input.nextInt();
+Cric.main(o);
+}
+}

@@ -1,0 +1,14 @@
+class Tournament
+{
+public static void tour(int o,double sec,String t1,String t2)
+{
+System.out.print("Enter no of teams for Tournament:-");int nt=Input.nextInt();
+String nte[]=new String [nt];
+for(int n=0;n<nt;n++)
+{
+System.out.print("Enter team "+(n+1)+":- ");
+nte[n]=Input.next();
+Cricket.match(o,sec,"t1","t2");
+}
+}
+}
